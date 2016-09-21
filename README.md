@@ -26,8 +26,10 @@ $html = $this->load->view('unpaid_voucher',$data,true);
 
 // unpaid_voucher is unpaid_voucher.php file in view directory and $data variable has infor mation that you want to render on view.
 
-$this->load->library('M_pdf');
+ $this->load->library('M_pdf');
+ 
  $this->m_pdf->pdf->WriteHTML($html);
  
  //download it D save F.
+ 
  $this->m_pdf->pdf->Output("./uploads/".$filename, "F"); 
