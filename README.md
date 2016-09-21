@@ -3,8 +3,11 @@
 Place the mpdf library in thirdparty directory and Create the mpdf.php file by placing following code and put that file in Codeigniter application/library directory.
 
 if (!defined('BASEPATH')) exit('No direct script access allowed');
+
 include_once APPPATH.'/third_party/mpdf/mpdf.php';
+
 class M_pdf {
+
     public $param;
     public $pdf;
     public function __construct($param = "'c', 'A4-L'")
