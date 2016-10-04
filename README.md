@@ -1,5 +1,9 @@
 # mPDF Library using Codeigniter
 
+# Helping Content
+
+You can find full step by step implementaion on http://phpclicks.com/mpdf-library-using-codeigniter/ 
+
 Place the mpdf library in thirdparty directory and Create the mpdf.php file by placing following code and put that file in Codeigniter application/library directory.
 
 if (!defined('BASEPATH')) exit('No direct script access allowed');
